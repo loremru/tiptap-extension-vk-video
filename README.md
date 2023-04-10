@@ -1,7 +1,9 @@
 # Vk video extension for TipTap and Vue
 
+[npm package](https://www.npmjs.com/package/tiptap-extension-vk-video)
+
 ```js
-import tiptapImageExtension from '@/components/ui/tiptap/tiptapImageExtension'
+import vkVideoExtension from 'tiptap-extension-vk-video'
 
 const editor = ref()
 

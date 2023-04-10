@@ -1,12 +1,15 @@
 {
 	"name": "tiptap-extension-vk-video",
 	"description": "vk-video extension for tiptap",
-	"version": "1.0.3",
+	"version": "1.0.6",
 	"keywords": [
 		"tiptap",
 		"tiptap extension",
 		"tiptap vk-video"
 	],
+	"repository": {
+		"url": "https://github.com/loremru/tiptap-extension-vk-video"
+	},
 	"license": "MIT",
 	"type": "module",
 	"exports": {
