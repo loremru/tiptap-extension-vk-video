@@ -1,0 +1,26 @@
+{
+	"name": "tiptap-extension-vk-video",
+	"description": "vk-video extension for tiptap",
+	"version": "1.0.3",
+	"keywords": [
+		"tiptap",
+		"tiptap extension",
+		"tiptap vk-video"
+	],
+	"license": "MIT",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./src/vkVideoExtension.ts",
+			"require": "./src/vkVideoExtension.ts"
+		}
+	},
+	"main": "src/vkVideoExtension.ts",
+	"module": "src/vkVideoExtension.ts",
+	"files": [
+		"src"
+	],
+	"peerDependencies": {
+		"@tiptap/core": "^2.0.0"
+	}
+}
