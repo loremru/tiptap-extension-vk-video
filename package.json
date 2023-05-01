@@ -1,7 +1,7 @@
 {
 	"name": "tiptap-extension-vk-video",
 	"description": "vk-video extension for tiptap",
-	"version": "1.0.6",
+	"version": "1.0.8",
 	"keywords": [
 		"tiptap",
 		"tiptap extension",

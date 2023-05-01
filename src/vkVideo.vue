@@ -1,13 +1,15 @@
 <template>
   <node-view-wrapper>
-    <iframe
-      v-bind="props.node?.attrs"
-      width="100%"
-      allow="autoplay; encrypted-media; fullscreen; picture-in-picture;"
-      style="aspect-ratio: 16 / 9"
-      allowfullscreen
-      class="mb-6"
-    />
+    <div data-vk-video>
+      <iframe
+          v-bind="props.node?.attrs"
+          width="100%"
+          allow="autoplay; encrypted-media; fullscreen; picture-in-picture;"
+          style="aspect-ratio: 16 / 9"
+          allowfullscreen
+          class="mb-6"
+      />
+    </div>
   </node-view-wrapper>
 </template>
 
